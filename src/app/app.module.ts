@@ -10,6 +10,7 @@ import { LoginComponent } from './pages/feature-login/login/login.component';
 import { ResetComponent } from './pages/feature-login/reset/reset.component';
 import { SignupComponent } from './pages/feature-login/signup/signup.component';
 import { HomeComponent } from './pages/home/home.component';
+import { UserComponent } from './pages/feature-login/user/user/user.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './pages/home/home.component';
     LoginComponent,
     ResetComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
